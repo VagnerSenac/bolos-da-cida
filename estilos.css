@@ -1,28 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .cabecalho{
     background-image: url("imagens/reader.png");
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
-width: 1440px;
+    width: 1440px;
     margin-top: 0;
     margin-right: auto;
-    margin-left: center;
+    margin-left: auto;
     margin-bottom: 0;
-text-align: center;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 22px;
 }
 body{
     margin: 0;
+    font-family: 'Roboto';
 }
 .logo{
     width: 170px;
     height: 170px;
     border: 5px solid white;
     background-color: white;
-border-radius: 100px; /* deixa a barda imagem em forma circular */
+    border-radius: 100px; /* deixa a barda imagem em forma circular */
 }
 .nome-loja{
     margin: 0;
-font-size: 50px;
-color: #000000;
-line-height: 80%; /* altura entre os textos */
+    font-size: 50px;
+    color: #000000;
+    line-height: 80%; /* altura entre os textos */
+    font-family: 'Lobster';
+    font-weight: 100;
+}
+.texto-pequeno{
+    font-size: 28px;
+}
+.menu{
+    margin: 0;
+    color:#FFE8D6;
+    text-align: center;
+    background-color: #F5AC72;
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+.item-menu{
+    color:#FFE8D6;
+    font-size: 18px;
+    font-weight: 500;
+
 }
