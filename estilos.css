@@ -67,7 +67,7 @@ body{
     font-family: 'Lobster';
     font-weight: 100;
     color: #F8BD7F; 
-    size: 45px;
+    font-size: 45px;
     text-align: center;
 
 }
@@ -106,8 +106,8 @@ body{
     font-family: 'Lobster';
     font-weight: 100;
     color: #FFE8D6; 
-    size: 45px;
     text-align: center;
+    font-size: 45px;
 }
 .fotos-bolos{
     height: 200px;
@@ -115,4 +115,50 @@ body{
     object-fit: cover;
     border: 5px solid #B7B7A4;
 
+}
+.foto-meio{
+    margin-right: 113px;
+    margin-left: 113px;
+}
+.titulo-contato{
+    font-family: 'Lobster';
+    font-weight: 100;
+    color: #CB997E; 
+    text-align: center;
+    font-size: 45px;
+}
+.localizacao{
+    text-align: center;
+}
+.linha{
+    border: 3px solid #CB997E;
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0px;
+}
+.rodape{
+    text-align: center;
+}
+.redes-sociais1{
+    height: 28px;
+    width: 28px;
+    object-fit: cover;
+    margin-right: 8px;
+    margin-top: 8px;
+    padding-bottom: 19px;
+   
+}
+.redes-sociais2{
+    margin-top: 8px;
+    height: 28px;
+    width: 28px;
+    object-fit: cover;
+    margin-left: 8px;
+    padding-bottom: 19px;
+   
+}
+.mapa{
+   margin-bottom: 20px;
+   border: 3px solid #B7B7A4;
 }
